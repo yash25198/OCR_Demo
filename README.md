@@ -1,4 +1,4 @@
-# Optical Character Recognition with Python
+# Optical Character Recognition using Tesseract
 
 ## Find the ocr server hosted permanently at http://ocrdemo.pythonanywhere.com
 

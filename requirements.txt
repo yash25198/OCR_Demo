@@ -1,0 +1,3 @@
+Flask~=2.0.1
+pytesseract~=0.3.7
+Pillow~=8.2.0

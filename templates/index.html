@@ -10,6 +10,7 @@
     <h1 align="center" style="font-family:verdana;color:white;background-color:grey;" >
         OCR
     </h1>
+    <p align="center">*Upload an image containing text.The extracted text from the image will be displayed as Result below. Find the source for this server <a href="https://github.com/yash25198/OCR_Demo.git">here</a>*</p>
 
     <h2 align="center" style="font-family:verdana;color:black;" >
         Upload image
@@ -33,7 +34,7 @@
     {% endif %}
 
     {% if img_src %}
-    <p align="center"><img  src="{{ img_src }}"></p>
+    <p align="center" ><img src="{{ img_src }}"></p>
     {% endif %}
 
     {% if obtained_text %}

@@ -24,6 +24,8 @@ def homepage():
             file.save(os.path.join(os.getcwd() + DEFAULT_FOLDER, file.filename))
             text = ocr(file)
             return render_template('index.html',msg = 'Success',obtained_text = text,img_src = DEFAULT_FOLDER + file.filename)
+        elif file and not allowed_formats(file.filename):
+            return render_template('index.html', msg='file extension not supported')
 
     else:
         return render_template('index.html');
